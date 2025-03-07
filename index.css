@@ -399,7 +399,9 @@ blockquote::after{
     background-color: #f8f6f6;
     height: auto;
     width: 100vw;
-    position: absolute;
+    padding: 50px 0;
+    position:relative;
+    text-align: center;
 }
 .seventh-section h3{
     margin: 100px 0px 150px 0px;
@@ -416,15 +418,16 @@ blockquote::after{
     display: block;
     text-align: left;
     font-size: 18px;
-    margin-right: 780px;
-    margin-left: 150px;
+    margin: 0 auto;
     color: #3f3d3d;
     line-height: 1.5;
+    max-width: 800px;
 }
 
 .seventh-section-two{
     display: flex;
     float: right;
+    justify-content: center;
     margin-top: -300px;
     margin-right: 100px;
 }
